@@ -30,7 +30,9 @@ This library features a modified version of the [micropython-ssd1306 library](ht
 </div>
 
 > [!IMPORTANT]  
-> All credits and acknowledgments go to the original author.
+> All credits and acknowledgements are extended to the contributors and designers of the libraries. For more  information, please visit: [MicroPython Library on GitHub](https://github.com/micropython/micropython-lib/tree/master).
+
+
 
 ## sdcard-lib
 
@@ -45,5 +47,6 @@ This library is compatible with DualMCU, developed for [MicroPython](https://git
 </div>
 
 > [!IMPORTANT]  
-> All credits and acknowledgments go to the original author.
+> All credits and acknowledgements are extended to the contributors and designers of the libraries. For more  information, please visit: [MicroPython Library on GitHub](https://github.com/micropython/micropython-lib/tree/master).
+
 
