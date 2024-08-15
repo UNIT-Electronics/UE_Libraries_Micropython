@@ -1,6 +1,17 @@
 # UE_Libraries_Micropython
 
 The libraries published here focus on development in MicroPython, offering updated versions of various programs. These programs are available on the free PyPI platform, ensuring easy implementation.
+## DualMCU
+Library Version 0.0.10 for the DualMCU board now supports the MAX1704X. The previous version included control of the RGB LED, buzzer, SSD1306 OLED display via I2C, and SD card via SPI.
+
+
+| Library  | Version | Link                                      |
+|----------|---------|-------------------------------------------|
+| dualmcu  | 0.0.10  | [https://pypi.org/project/dualmcu/](https://pypi.org/project/dualmcu/) |
+
+> [!IMPORTANT]  
+> All credits and acknowledgments go to the original author.
+
 
 ## Loadupch
 
@@ -25,7 +36,7 @@ This library features a modified version of the [micropython-ssd1306 library](ht
 
 | Library | Version | Link                                      |
 |---------|---------|-------------------------------------------|
-| ocks    | 0.4     | [https://pypi.org/project/ocks/](https://pypi.org/project/ocks/) |
+| ocks    | 0.6    | [https://pypi.org/project/ocks/](https://pypi.org/project/ocks/) |
 
 </div>
 
@@ -46,4 +57,5 @@ This library is compatible with DualMCU, developed for [MicroPython](https://git
 
 > [!IMPORTANT]  
 > All credits and acknowledgments go to the original author.
+
 
