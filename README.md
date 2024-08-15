@@ -2,6 +2,18 @@
 
 The libraries published here focus on development in MicroPython, offering updated versions of various programs. These programs are available on the free PyPI platform, ensuring easy implementation.
 
+## DualMCU
+Library Version 0.0.10 for the DualMCU board now supports the MAX1704X. The previous version included control of the RGB LED, buzzer, SSD1306 OLED display via I2C, and SD card via SPI.
+
+
+| Library  | Version | Link                                      |
+|----------|---------|-------------------------------------------|
+| dualmcu  | 0.0.10  | [https://pypi.org/project/dualmcu/](https://pypi.org/project/dualmcu/) |
+
+> [!IMPORTANT]  
+> All credits and acknowledgments go to the original author.
+
+
 ## Loadupch
 
 Loadupch is a software designed to work in the Windows environment for easy use, requiring no advanced installation. It runs on Python 3.9 and is based on code from [Stefan Wagner](https://github.com/wagiminator). The software provides a Tkinter interface for uploading firmware (.bin files) to the CH552 microcontroller with bootloader 2.40. The code is based on [chprog.py](https://github.com/wagiminator/CH552-USB-NRF/blob/main/software/nrf2cdc/tools/chprog.py).
@@ -25,14 +37,12 @@ This library features a modified version of the [micropython-ssd1306 library](ht
 
 | Library | Version | Link                                      |
 |---------|---------|-------------------------------------------|
-| ocks    | 0.4     | [https://pypi.org/project/ocks/](https://pypi.org/project/ocks/) |
+| ocks    | 0.6    | [https://pypi.org/project/ocks/](https://pypi.org/project/ocks/) |
 
 </div>
 
 > [!IMPORTANT]  
-> All credits and acknowledgements are extended to the contributors and designers of the libraries. For more  information, please visit: [MicroPython Library on GitHub](https://github.com/micropython/micropython-lib/tree/master).
-
-
+> All credits and acknowledgments go to the original author.
 
 ## sdcard-lib
 
@@ -47,6 +57,6 @@ This library is compatible with DualMCU, developed for [MicroPython](https://git
 </div>
 
 > [!IMPORTANT]  
-> All credits and acknowledgements are extended to the contributors and designers of the libraries. For more  information, please visit: [MicroPython Library on GitHub](https://github.com/micropython/micropython-lib/tree/master).
+> All credits and acknowledgments go to the original author.
 
 
